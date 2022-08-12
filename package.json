@@ -1,6 +1,6 @@
 {
 	"name": "@freemework/decimal.bignumberjs",
-	"version": "0.4.19",
+	"version": "0.4.20",
 	"description": "decimal.bignumberjs library of the Freemework Project.",
 	"author": {
 		"name": "Freemework Project",
@@ -43,7 +43,7 @@
 		"test:only": "tsc && mocha --require source-map-support/register \"test/**/*.test.js\" --recursive --timeout 10000"
 	},
 	"dependencies": {
-		"@freemework/common": "^0.4.19",
+		"@freemework/common": "^0.4.20",
 		"@types/node": "^18.0.0",
 		"bignumber.js": "^9.0.0"
 	},

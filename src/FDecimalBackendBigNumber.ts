@@ -344,50 +344,6 @@ export class FDecimalBackendBigNumber implements FDecimal.Backend {
 		return result;
 	}
 
-
-	// public static ensure(data: FDecimal, errorMessage?: string): BigNumberFinancial {
-	// 	if (data instanceof BigNumberFinancial) { return data; }
-	// 	if (errorMessage === undefined) {
-	// 		errorMessage = "Wrong Financial object";
-	// 	}
-	// 	throw new ArgumentError(errorMessage);
-	// }
-
-	// public static ensureNullable(data: FDecimal | null, errorMessage?: string): BigNumberFinancial | null {
-	// 	if (data === null) { return null; }
-	// 	return BigNumberFinancial.ensure(data, errorMessage);
-	// }
-
-
-
-
-	// public toJSON(): string {
-	// 	return this.toString();
-	// }
-
-
-	// private constructor(value: BigNumber, settings: Settings) {
-	// 	if (settings.defaultRoundOpts.fractionalDigits < value.decimalPlaces()) {
-	// 		super({
-	// 			decimalSeparator: settings.decimalSeparator,
-	// 			defaultRoundOpts: {
-	// 				roundMode: settings.defaultRoundOpts.roundMode,
-	// 				fractionalDigits: value.decimalPlaces()
-	// 			}
-	// 		});
-	// 	} else {
-	// 		super(settings);
-	// 	}
-	// 	this._raw = value;
-	// }
-
-	// private wrap(value: FDecimal): BigNumberFinancial {
-	// 	if (value instanceof BigNumberFinancial) {
-	// 		return value;
-	// 	}
-	// 	return BigNumberFinancial.parse(value.toString(), this._settings);
-	// }
-
 	private static convertRoundMode(roundMode: FDecimal.RoundMode, isPositive: boolean): BigNumber.RoundingMode {
 		switch (roundMode) {
 			case FDecimal.RoundMode.Ceil: return isPositive === true ? BigNumber.ROUND_UP : BigNumber.ROUND_DOWN;
