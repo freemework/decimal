@@ -1,10 +1,11 @@
 # Freemework
 [![npm version badge](https://img.shields.io/npm/v/@freemework/decimal.bignumberjs.svg)](https://www.npmjs.com/package/@freemework/decimal.bignumberjs)
 [![downloads badge](https://img.shields.io/npm/dm/@freemework/decimal.bignumberjs.svg)](https://www.npmjs.org/package/@freemework/decimal.bignumberjs)
-[![commit activity badge](https://img.shields.io/github/commit-activity/m/freemework/decimal.bignumberjs)](https://github.com/freemework/decimal.bignumberjs/pulse)
-[![last commit badge](https://img.shields.io/github/last-commit/freemework/decimal.bignumberjs)](https://github.com/freemework/decimal.bignumberjs/graphs/commit-activity)
+[![commit activity badge](https://img.shields.io/github/commit-activity/m/freemework/decimal)](https://github.com/freemework/decimal/pulse)
+[![last commit badge](https://img.shields.io/github/last-commit/freemework/decimal)](https://github.com/freemework/decimal/graphs/commit-activity)
 
-Financial is a data type for storing decimal values and manipulate its via mathematical functions according infinite-precision arithmetic. It should be used when it is important to preserve exact precision, for example with monetary data.
+FDecimal is a data type for storing decimal values and manipulate its via mathematical functions according infinite-precision arithmetic.
+It should be used when it is important to preserve exact precision, for example with monetary data.
 
 ###### Problems of JavaScript [IEEE 754 floating point numbers](https://en.wikipedia.org/wiki/IEEE_754).
 ##### Approximation
